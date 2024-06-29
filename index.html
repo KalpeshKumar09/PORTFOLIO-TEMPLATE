@@ -39,12 +39,12 @@
 
     <!-- HOME PAGE -->
     <section id="profile">
-      <div class="section_pic-container">
-        <img src="./assets/character.png" alt="profile picture" />
+      <div class="section__pic-container">
+        <img src="./assets/character.png" alt="John Doe profile picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Kalpesh Kumar</h1>
+        <h1 class="title">John Doe</h1>
         <p class="section__text__p2">Frontend Developer</p>
         <div class="btn-container">
           <button
@@ -53,22 +53,22 @@
           >
             Download CV
           </button>
-          <button class="btn btn-color-1" onclick="location.href='#contact'">
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
           </button>
         </div>
-        <div class="social-container">
+        <div id="socials-container">
           <img
             src="./assets/linkedin.png"
-            alt="My Linkedin profile"
+            alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://www.linkedin.com/in/kalpesh-kumar/'"
+            onclick="location.href='https://linkedin.com/'"
           />
           <img
             src="./assets/github.png"
-            alt="My GitHub profile"
+            alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/KalpeshKumar09'"
+            onclick="location.href='https://github.com/'"
           />
         </div>
       </div>
@@ -262,6 +262,123 @@
         onclick="location.href='./#projects'"
       />
     </section>
+
+    <!-- PROJECT -->
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/KalpeshKumar09'"
+              >
+                GitHub
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/KalpeshKumar09'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/KalpeshKumar09'"
+              >
+                GitHub
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/KalpeshKumar09'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/KalpeshKumar09'"
+              >
+                GitHub
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/KalpeshKumar09'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="email"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:exampleemail@gmail.com">Example@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="linkedin"
+            class="icon contact-icon"
+          />
+          <p><a href="/">Linkedin</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>CopyRight &#169; 2023 Kalpesh Kumar, All Rights Reserved.</p>
+    </footer>
 
     <script src="app.js"></script>
   </body>
